@@ -1,0 +1,1801 @@
+@charset "UTF-8";
+/*
+ * FOUNDATION
+ * Do not change the order of these imports.
+ */
+@import url(../../node_modules/ionicons/css/ionicons.css);
+/* Configuration
+   ========================================================================== */
+/* Colors */
+/* Calculations
+   ========================================================================== */
+/* Font themes
+   ========================================================================== */
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic);
+/********************MIXINS*********************/
+/* CSS Horizontal Centering */
+/* CSS Vertical Centering */
+/* CSS Horizontal & Vertical Centering */
+/* Ionicons */
+/* WebKit-proof */
+/********************VARIABLES********************/
+@import url("https://fonts.googleapis.com/css?family=Alegreya:400italic,400,700|Alegreya+Sans:300,400,700,300italic,400italic");
+/* Calculations
+   ========================================================================== */
+/* Font themes
+   ========================================================================== */
+/********* Custom colors example (modify as needed) *********/
+/*
+Cool
+*/
+/*
+Warm
+*/
+/*
+Gray Scale
+*/
+/* Color classes (modify as needed) */
+@import url(../../node_modules/normalize.css/normalize.css);
+@import url(../../node_modules/glidejs/dist/css/glide.core.css);
+@import url(../../node_modules/glidejs/dist/css/glide.theme.css);
+@import url(../../node_modules/magnific-popup/dist/magnific-popup.css);
+.aqua {
+  color: #7fdbff;
+}
+
+.aqua-bg {
+  background-color: #7fdbff;
+}
+
+.blue {
+  color: #0074d9;
+}
+
+.blue-bg {
+  background-color: #0074d9;
+}
+
+.navy {
+  color: #001f3f;
+}
+
+.navy-bg {
+  background-color: #001f3f;
+}
+
+.teal {
+  color: #39cccc;
+}
+
+.teal-bg {
+  background-color: #39cccc;
+}
+
+.green {
+  color: #2ecc40;
+}
+
+.green-bg {
+  background-color: #2ecc40;
+}
+
+.olive {
+  color: #3d9970;
+}
+
+.olive-bg {
+  background-color: #3d9970;
+}
+
+.lime {
+  color: #01ff70;
+}
+
+.lime-bg {
+  background-color: #01ff70;
+}
+
+.yellow {
+  color: #ffdc00;
+}
+
+.yellow-bg {
+  background-color: #ffdc00;
+}
+
+.orange {
+  color: #ff851b;
+}
+
+.orange-bg {
+  background-color: #ff851b;
+}
+
+.red {
+  color: #ff4136;
+}
+
+.red-bg {
+  background-color: #ff4136;
+}
+
+.fuchsia {
+  color: #f012be;
+}
+
+.fuchsia-bg {
+  background-color: #f012be;
+}
+
+.purple {
+  color: #b10dc9;
+}
+
+.purple-bg {
+  background-color: #b10dc9;
+}
+
+.maroon {
+  color: #85144b;
+}
+
+.maroon-bg {
+  background-color: #85144b;
+}
+
+.white {
+  color: white;
+}
+
+.white-bg {
+  background-color: white;
+}
+
+.gray {
+  color: #eeeeee;
+}
+
+.gray-bg {
+  background-color: #eeeeee;
+}
+
+.silver {
+  color: #cccccc;
+}
+
+.silver-bg {
+  background-color: #cccccc;
+}
+
+.black {
+  color: #444444;
+}
+
+.black-bg {
+  background-color: #444444;
+}
+
+/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Hide visually and from screen readers
+ */
+.hidden {
+  display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before, nav ul.main-nav:before,
+.clearfix:after,
+nav ul.main-nav:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.clearfix:after, nav ul.main-nav:after {
+  clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+@media print {
+  *,
+  *:before,
+  *:after,
+  *:first-letter,
+  *:first-line {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster:
+       http://www.sanbeiji.com/archives/953 */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  /*
+   * Printing Tables:
+   * http://css-discuss.incutio.com/wiki/Printing_Tables
+   */
+  thead {
+    display: table-header-group;
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+
+/********************GRID-ALWAYS*********************/
+.onecol-always {
+  width: 5.801104972%;
+}
+
+.twocol-always {
+  width: 14.364640883%;
+}
+
+.twoptfourcol-always {
+  width: 17.73757%;
+}
+
+.threecol-always {
+  width: 22.928176794%;
+}
+
+.fourcol-always {
+  width: 31.491712705%;
+}
+
+.fivecol-always {
+  width: 40.055248616%;
+}
+
+.sixcol-always {
+  width: 48.618784527%;
+}
+
+.sevencol-always {
+  width: 57.182320438000005%;
+}
+
+.eightcol-always {
+  width: 65.74585634900001%;
+}
+
+.ninecol-always {
+  width: 74.30939226%;
+}
+
+.tencol-always {
+  width: 82.87292817100001%;
+}
+
+.elevencol-always {
+  width: 91.436464082%;
+}
+
+.twelvecol-always {
+  width: 99.999999993%;
+}
+
+.onecol-always,
+.twocol-always,
+.twoptfourcol-always,
+.threecol-always,
+.fourcol-always,
+.fivecol-always,
+.sixcol-always,
+.sevencol-always,
+.eightcol-always,
+.ninecol-always,
+.tencol-always,
+.elevencol-always,
+.twelvecol-always {
+  position: relative;
+  float: left;
+  margin-left: 2.762430939%;
+}
+
+.first-always {
+  margin-left: 0;
+}
+
+.last-always {
+  float: right;
+}
+
+/* Custom Grid Styles */
+.custom-col {
+  position: relative;
+}
+
+@media (min-width: 649px) {
+  .custom-col {
+    float: left;
+    width: 50%;
+  }
+  .custom-col.even {
+    float: right;
+  }
+}
+
+@media (min-width: 899px) {
+  .custom-col {
+    width: 33.333333333%;
+  }
+  .custom-col.even {
+    float: left;
+  }
+  .custom-col.three-last {
+    float: right;
+  }
+}
+
+@media (min-width: 1149px) {
+  .custom-col {
+    width: 25%;
+  }
+  .custom-col.three-last {
+    float: left;
+  }
+  .custom-col.four-last {
+    float: right;
+  }
+}
+
+@media (min-width: 767px) {
+  /********************GRID*********************/
+  .onecol {
+    width: 5.801104972%;
+  }
+  .twocol {
+    width: 14.364640883%;
+  }
+  .twoptfourcol {
+    width: 17.73757%;
+  }
+  .threecol {
+    width: 22.928176794%;
+  }
+  .fourcol {
+    width: 31.491712705%;
+  }
+  .fivecol {
+    width: 40.055248616%;
+  }
+  .sixcol {
+    width: 48.618784527%;
+  }
+  .sevencol {
+    width: 57.182320438000005%;
+  }
+  .eightcol {
+    width: 65.74585634900001%;
+  }
+  .ninecol {
+    width: 74.30939226%;
+  }
+  .tencol {
+    width: 82.87292817100001%;
+  }
+  .elevencol {
+    width: 91.436464082%;
+  }
+  .twelvecol {
+    width: 99.999999993%;
+  }
+  .onecol,
+  .twocol,
+  .twoptfourcol,
+  .threecol,
+  .fourcol,
+  .fivecol,
+  .sixcol,
+  .sevencol,
+  .eightcol,
+  .ninecol,
+  .tencol,
+  .elevencol,
+  .twelvecol {
+    position: relative;
+    float: left;
+    margin-left: 2.762430939%;
+  }
+  .first {
+    margin-left: 0;
+  }
+  .last {
+    float: right;
+  }
+}
+
+/********************GLOBAL********************/
+* {
+  /* (http://paulirish.com/2012/box-sizing-border-box-ftw/) */
+  box-sizing: border-box;
+  line-height: 1.5rem;
+}
+
+*:after, *:before {
+  box-sizing: border-box;
+}
+
+@media (min-width: 40em) {
+  * {
+    /********************MIXINS*********************/
+    /* CSS Horizontal Centering */
+    /* CSS Vertical Centering */
+    /* CSS Horizontal & Vertical Centering */
+    /* Ionicons */
+    /* WebKit-proof */
+    line-height: 1.625rem;
+  }
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 112.5%;
+  font-family: "Alegreya", "Georgia", serif;
+  color: #444444;
+}
+
+@media (min-width: 40em) {
+  html {
+    font-size: 1.25rem;
+  }
+}
+
+body {
+  background-color: white;
+  overflow-x: hidden;
+}
+
+/* Links */
+a, .a {
+  color: #3d9970;
+  text-decoration: none;
+}
+
+a:link, a:active, a:visited, .a:link, .a:active, .a:visited {
+  color: #3d9970;
+  text-decoration: none;
+  outline: none;
+}
+
+a:hover, a:focus, .a:hover, .a:focus {
+  text-decoration: underline;
+}
+
+/* Buttons */
+button, .button, a.acf-button, input[type="button"], input[type="reset"], input[type="submit"] {
+  border-radius: 0;
+  border: 0;
+  box-shadow: none;
+  text-shadow: none;
+  height: auto;
+  line-height: normal;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #3d9970;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-family: "Alegreya Sans", sans-serif;
+  transition-property: background-color, color;
+  transition-duration: 0.25s;
+  transition-delay: 0s;
+  transition-timing-function: ease-in-out;
+  /* Example alternate button color */
+}
+
+button:link, button:active, button:visited, .button:link, .button:active, .button:visited, a.acf-button:link, a.acf-button:active, a.acf-button:visited, input[type="button"]:link, input[type="button"]:active, input[type="button"]:visited, input[type="reset"]:link, input[type="reset"]:active, input[type="reset"]:visited, input[type="submit"]:link, input[type="submit"]:active, input[type="submit"]:visited {
+  background-color: #3d9970;
+  color: white;
+  line-height: normal;
+  outline: none;
+}
+
+button:hover, button:focus, .button:hover, .button:focus, a.acf-button:hover, a.acf-button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
+  background-color: #368763;
+  text-decoration: none;
+}
+
+button.black, .button.black, a.acf-button.black, input[type="button"].black, input[type="reset"].black, input[type="submit"].black {
+  background-color: #444444;
+  color: white;
+}
+
+button.black:link, button.black:active, button.black:visited, .button.black:link, .button.black:active, .button.black:visited, a.acf-button.black:link, a.acf-button.black:active, a.acf-button.black:visited, input[type="button"].black:link, input[type="button"].black:active, input[type="button"].black:visited, input[type="reset"].black:link, input[type="reset"].black:active, input[type="reset"].black:visited, input[type="submit"].black:link, input[type="submit"].black:active, input[type="submit"].black:visited {
+  background-color: #444444;
+  color: white;
+}
+
+button.black:hover, button.black:focus, .button.black:hover, .button.black:focus, a.acf-button.black:hover, a.acf-button.black:focus, input[type="button"].black:hover, input[type="button"].black:focus, input[type="reset"].black:hover, input[type="reset"].black:focus, input[type="submit"].black:hover, input[type="submit"].black:focus {
+  background-color: #585858;
+}
+
+a.acf-button.blue:hover, a.acf-button.blue:focus {
+  background-color: #368763;
+}
+
+/* Figures and Blockquotes */
+figcaption {
+  color: #444444;
+  font-size: 0.8125rem;
+  font-style: italic;
+  text-align: center;
+}
+
+@media (min-width: 40em) {
+  figure.alignleft,
+  figure.alignright {
+    /********************MIXINS*********************/
+    /* CSS Horizontal Centering */
+    /* CSS Vertical Centering */
+    /* CSS Horizontal & Vertical Centering */
+    /* Ionicons */
+    /* WebKit-proof */
+    max-width: 17.5rem;
+    padding: 0rem 1.625rem;
+  }
+}
+
+blockquote {
+  background: #eeeeee;
+  border-left: 0.25rem solid #cccccc;
+  margin: 2.25rem 0rem;
+  padding: 1.5rem 0.75rem;
+  quotes: "“" "”";
+  position: relative;
+}
+
+blockquote:before {
+  color: #cccccc;
+  content: open-quote;
+  font-size: 4rem;
+  position: absolute;
+  top: 2px;
+}
+
+blockquote p {
+  display: inline;
+}
+
+cite {
+  display: block;
+  font-style: normal;
+}
+
+small, .small {
+  line-height: 0.75rem;
+  font-size: 70%;
+}
+
+@media (min-width: 40em) {
+  small, .small {
+    /********************MIXINS*********************/
+    /* CSS Horizontal Centering */
+    /* CSS Vertical Centering */
+    /* CSS Horizontal & Vertical Centering */
+    /* Ionicons */
+    /* WebKit-proof */
+    line-height: 0.8125rem;
+  }
+}
+
+/* Paragraphs and Lists
+   ========================================================================== */
+p, ul, ol {
+  margin: 0rem 0rem 1.5rem;
+}
+
+@media (min-width: 40em) {
+  p, ul, ol {
+    /********************MIXINS*********************/
+    /* CSS Horizontal Centering */
+    /* CSS Vertical Centering */
+    /* CSS Horizontal & Vertical Centering */
+    /* Ionicons */
+    /* WebKit-proof */
+    margin: 0rem 0rem 1.625rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+ul ul, ul ol, ol ul, ol ol {
+  margin-bottom: 0;
+}
+
+@media (min-width: 40em) {
+  /********************MIXINS*********************/
+  /* CSS Horizontal Centering */
+  /* CSS Vertical Centering */
+  /* CSS Horizontal & Vertical Centering */
+  /* Ionicons */
+  /* WebKit-proof */
+}
+
+.uppercase {
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: bold;
+}
+
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  box-sizing: content-box;
+  border: 0;
+  color: #444444;
+  display: block;
+  height: 1.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  background-size: 100% 1.5rem;
+  background-image: linear-gradient(to bottom, transparent 1px, transparent 11px, #444444 11px, #444444 15px, transparent 15px, transparent 26px);
+  width: 100px;
+}
+
+@media (min-width: 40em) {
+  hr {
+    background-size: 100% 1.625rem;
+    background-image: linear-gradient(to bottom, transparent 1px, transparent 11px, #444444 11px, #444444 15px, transparent 15px, transparent 26px);
+  }
+}
+
+/* Headings */
+h1, .h1 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin-top: 6rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+h2, .h2 {
+  font-size: 1.6875rem;
+  line-height: 2.25rem;
+  margin-top: 3.75rem;
+  margin-bottom: 0.75rem;
+  font-weight: bold;
+}
+
+h3, .h3 {
+  font-size: 1.375rem;
+  line-height: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 0.75rem;
+  font-weight: bold;
+}
+
+h4, .h4 {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  margin-top: 2.25rem;
+  margin-bottom: 0.75rem;
+  font-weight: bold;
+}
+
+h5, .h5 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-top: 3.75rem;
+  margin-bottom: 0.75rem;
+  font-weight: bold;
+}
+
+h6, .h6 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-top: 3.75rem;
+  margin-bottom: 0.75rem;
+  font-weight: bold;
+}
+
+@media (min-width: 40em) {
+  /********************MIXINS*********************/
+  /* CSS Horizontal Centering */
+  /* CSS Vertical Centering */
+  /* CSS Horizontal & Vertical Centering */
+  /* Ionicons */
+  /* WebKit-proof */
+  h1, .h1 {
+    line-height: 3.25rem;
+    margin-top: 6.5rem;
+    margin-bottom: 1.625rem;
+  }
+  h2, .h2 {
+    line-height: 2.4375rem;
+    margin-top: 4.0625rem;
+    margin-bottom: 0.8125rem;
+  }
+  h3, .h3 {
+    line-height: 1.625rem;
+    margin-top: 3.25rem;
+    margin-bottom: 0.8125rem;
+  }
+  h4, .h4 {
+    line-height: 1.625rem;
+    margin-top: 2.4375rem;
+    margin-bottom: 0.8125rem;
+  }
+  h5, .h5 {
+    line-height: 1.625rem;
+    margin-top: 4.0625rem;
+    margin-bottom: 0.8125rem;
+  }
+  h6, .h6 {
+    line-height: 1.625rem;
+    margin-top: 4.0625rem;
+    margin-bottom: 0.8125rem;
+  }
+}
+
+h1 + h2, .h1 + .h2 {
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 40em) {
+  h1 + h2, .h1 + .h2 {
+    /********************MIXINS*********************/
+    /* CSS Horizontal Centering */
+    /* CSS Vertical Centering */
+    /* CSS Horizontal & Vertical Centering */
+    /* Ionicons */
+    /* WebKit-proof */
+    margin-top: 1.625rem;
+  }
+}
+
+h2 + h3,
+.h2 + .h3,
+h3 + h4,
+.h3 + .h4,
+h4 + h5,
+.h4 + .h5 {
+  margin-top: 0.75rem;
+}
+
+@media (min-width: 40em) {
+  h2 + h3,
+  .h2 + .h3,
+  h3 + h4,
+  .h3 + .h4,
+  h4 + h5,
+  .h4 + .h5 {
+    /********************MIXINS*********************/
+    /* CSS Horizontal Centering */
+    /* CSS Vertical Centering */
+    /* CSS Horizontal & Vertical Centering */
+    /* Ionicons */
+    /* WebKit-proof */
+    margin-top: 0.8125rem;
+  }
+}
+
+h5 + h6, .h5 + .h6 {
+  margin-top: -0.75rem;
+}
+
+@media (min-width: 40em) {
+  h5 + h6, .h5 + .h6 {
+    /********************MIXINS*********************/
+    /* CSS Horizontal Centering */
+    /* CSS Vertical Centering */
+    /* CSS Horizontal & Vertical Centering */
+    /* Ionicons */
+    /* WebKit-proof */
+    margin-top: -0.8125rem;
+  }
+}
+
+h6, .h6 {
+  font-style: italic;
+  font-weight: normal;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+/* Form Inputs */
+input[type="checkbox"], input[type="radio"] {
+  cursor: pointer;
+}
+
+input[type=email], input[type=tel], input[type=number], input[type=password], input[type=search], input[type=text], input[type=url], select, textarea {
+  border: 1px solid #cccccc;
+}
+
+/* Default Image Styles */
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+/* WordPress Image Styles */
+[class^="wp-image-"], [class*=" wp-image-"], .wp-caption {
+  display: block;
+  padding: 4px;
+  background-color: #eeeeee;
+  border: 1px solid #cccccc;
+  height: auto;
+  max-width: 100%;
+}
+
+.wp-caption [class^="wp-image-"], .wp-caption [class*=" wp-image-"], .wp-caption .wp-caption {
+  padding: 0;
+  border: 0;
+}
+
+[class^="wp-image-"] .wp-caption-text, [class*=" wp-image-"] .wp-caption-text, .wp-caption .wp-caption-text {
+  font-size: 75%;
+  font-style: italic;
+  margin: 0;
+  padding: 16px 16px 12px;
+}
+
+/*
+ * oEmbed Styles
+ * To make an oEmbed responsive, simply wrap it in
+ * `.embed-container`.
+ */
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 40em) {
+  .embed-container {
+    /********************MIXINS*********************/
+    /* CSS Horizontal Centering */
+    /* CSS Vertical Centering */
+    /* CSS Horizontal & Vertical Centering */
+    /* Ionicons */
+    /* WebKit-proof */
+    margin-top: 1.625rem;
+    margin-bottom: 1.625rem;
+  }
+}
+
+iframe, object, embed {
+  max-width: 100%;
+  display: block;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 40em) {
+  iframe, object, embed {
+    /********************MIXINS*********************/
+    /* CSS Horizontal Centering */
+    /* CSS Vertical Centering */
+    /* CSS Horizontal & Vertical Centering */
+    /* Ionicons */
+    /* WebKit-proof */
+    margin-top: 1.625rem;
+    margin-bottom: 1.625rem;
+  }
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Containers */
+.wrap, .contain, .constrain {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+.wrap {
+  max-width: 1024px;
+}
+
+.contain {
+  max-width: 700px;
+}
+
+.constrain {
+  max-width: 450px;
+}
+
+/* Toggles */
+.toggle-content {
+  display: none;
+  position: relative;
+  padding: 1rem 1rem 0;
+}
+
+.toggle-content p:first-child {
+  margin-top: 0;
+}
+
+.toggle-content p:last-child {
+  margin-bottom: 0;
+}
+
+.toggle-heading {
+  display: block;
+  padding: 0.25rem 1.75rem 0.25rem 0.5rem;
+  margin: 1.5rem auto 0;
+  color: #3d9970;
+  cursor: pointer;
+  border: 1px solid #3d9970;
+  position: relative;
+}
+
+.toggle-heading:after {
+  font-family: 'Ionicons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-rendering: auto;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f3d0";
+  color: #3d9970;
+  position: absolute;
+  display: block;
+  bottom: 0.2rem;
+  right: 0.5rem;
+  line-height: inherit;
+}
+
+.toggle-heading.active:after {
+  content: "\f3d8";
+}
+
+/* Code */
+code, kbd, pre, samp, .code {
+  background-color: #eeeeee;
+  color: #777777;
+  padding: 1px 3px;
+  font-size: 16px;
+  line-height: 1.4;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+}
+
+code, kbd, samp, .code {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+pre, .pre {
+  display: block;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px 12px 10px;
+  overflow-x: auto;
+}
+
+@media (min-width: 40em) {
+  pre, .pre {
+    /********************MIXINS*********************/
+    /* CSS Horizontal Centering */
+    /* CSS Vertical Centering */
+    /* CSS Horizontal & Vertical Centering */
+    /* Ionicons */
+    /* WebKit-proof */
+    margin-top: 1.625rem;
+    margin-bottom: 1.625rem;
+  }
+}
+
+/* Misc. */
+.scratch-bg {
+  height: 200px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.white-popup {
+  position: relative;
+  background: white;
+  padding: 20px;
+  width: auto;
+  max-width: 700px;
+  margin: 1rem auto;
+}
+
+@media (min-width: 40em) {
+  br.brm {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+br.mbr {
+  display: none;
+  visibility: hidden;
+}
+
+@media (min-width: 40em) {
+  br.mbr {
+    display: block;
+    visibility: visible;
+  }
+}
+
+.acf-map {
+  width: 100%;
+  height: 400px;
+  border: #eeeeee solid 1px;
+  margin: 20px 0;
+}
+
+.gm-style img {
+  max-width: none;
+}
+
+/*
+ * HELPER CLASSES
+ */
+.hpad {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.alignleft {
+  margin: 1rem auto;
+}
+
+@media (min-width: 40em) {
+  .alignleft {
+    margin: 0 1rem 1rem 0;
+    float: left;
+  }
+}
+
+.aligncenter {
+  margin: 1rem auto;
+  clear: both;
+}
+
+.alignright {
+  margin: 1rem auto;
+}
+
+@media (min-width: 40em) {
+  .alignright {
+    margin: 0 0 1rem 1rem;
+    float: right;
+  }
+}
+
+.halign {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+@media (min-width: 40em) {
+  .valign {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.valign-always {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.hvalign {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Spin Animation */
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.spin {
+  -webkit-animation: spin 2s linear infinite;
+          animation: spin 2s linear infinite;
+}
+
+/* Blink Animation */
+@-webkit-keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.blink {
+  -webkit-animation: blink 2s ease infinite;
+          animation: blink 2s ease infinite;
+}
+
+/*
+ * CUSTOM HELPER CLASSES below here
+ */
+/*
+ * MIDDLE STUFF
+ * You're free to rearrange these how you like.
+ */
+/********************HEADER********************/
+/*
+ * This file should house all of the styles for
+ * header.php.
+ */
+#header {
+  background-color: #3d9970;
+}
+
+#header .logo {
+  display: block;
+  float: left;
+  margin: 11px auto;
+}
+
+#header .logo img {
+  width: 245px;
+  height: 58px;
+}
+
+/* Adds dropdown support, gives a good example of nesting
+ * with SCSS. The classes are specific to the Scratch
+ * Theme for WordPress. If you are not using Scratch, you
+ * can simply get rid of them.
+ */
+nav ul.main-nav {
+  display: none;
+  list-style: none;
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  top: 80px;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul.main-nav li {
+  display: block;
+  text-align: center;
+}
+
+nav ul.main-nav li a {
+  background-color: #3d9970;
+  color: white;
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.25s ease-in-out 0s;
+}
+
+nav ul.main-nav li a:link, nav ul.main-nav li a:active, nav ul.main-nav li a:visited {
+  background-color: #3d9970;
+  color: white;
+}
+
+nav ul.main-nav li a:hover, nav ul.main-nav li a:focus {
+  background-color: #368763;
+  text-decoration: none;
+}
+
+nav ul.main-nav li.current_page_item a {
+  background-color: #368763;
+}
+
+nav ul.main-nav li.current_page_item a:link, nav ul.main-nav li.current_page_item a:active, nav ul.main-nav li.current_page_item a:visited {
+  background-color: #368763;
+}
+
+nav ul.main-nav ul.sub-menu {
+  display: none;
+}
+
+@media (min-width: 767px) {
+  nav ul.main-nav {
+    position: relative;
+    width: auto;
+    top: 0;
+    float: right;
+    display: block !important;
+  }
+  nav ul.main-nav li {
+    float: left;
+  }
+  nav ul.main-nav li a {
+    padding: 24px 1rem;
+  }
+  nav ul.main-nav ul.sub-menu {
+    background-color: #3d9970;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+  }
+  nav ul.main-nav ul.sub-menu li {
+    float: none;
+    position: relative;
+    text-align: left;
+  }
+  nav ul.main-nav ul.sub-menu li a {
+    padding: 0.5rem 1rem;
+    background-color: #3d9970;
+    color: white;
+  }
+  nav ul.main-nav ul.sub-menu li a:link, nav ul.main-nav ul.sub-menu li a:active, nav ul.main-nav ul.sub-menu li a:visited {
+    background-color: #3d9970;
+    color: white;
+  }
+  nav ul.main-nav ul.sub-menu li a:hover, nav ul.main-nav ul.sub-menu li a:focus {
+    background-color: #368763;
+    text-decoration: none;
+  }
+  nav ul.main-nav ul.sub-menu ul {
+    position: absolute;
+    left: 100%;
+    top: 0;
+  }
+  nav ul.main-nav li:hover > ul.sub-menu {
+    display: block;
+  }
+}
+
+.nav-toggle {
+  position: absolute;
+  top: 1.2rem;
+  right: 1rem;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  transition: -webkit-transform 0.25s ease-in-out 0s;
+  transition: transform 0.25s ease-in-out 0s;
+  transition: transform 0.25s ease-in-out 0s, -webkit-transform 0.25s ease-in-out 0s;
+}
+
+@media (min-width: 40em) {
+  .nav-toggle {
+    top: 1rem;
+  }
+}
+
+@media (min-width: 767px) {
+  .nav-toggle {
+    display: none;
+  }
+}
+
+.nav-toggle i {
+  vertical-align: middle;
+}
+
+.nav-toggle.active {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+/********************PAGE********************/
+/*
+ * This file should house all of the styles for any
+ * page template, i.e. page.php or page-{rename}.php.
+ */
+.page-template-page-style_guide .scratch-bg {
+  margin-bottom: 1rem;
+}
+
+/********************LAYOUTS********************/
+/* Base Styles */
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: rgba(68, 68, 68, 0.4);
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.hero-unit .circle, .flexible-columns .circle, .staggered .circle, .wysiwygs .circle {
+  width: 160px;
+  height: 160px;
+  background-color: #3d9970;
+  margin: 0 auto;
+  transition-property: background-color, color, opacity;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+
+.hero-unit .circle i, .flexible-columns .circle i, .staggered .circle i, .wysiwygs .circle i {
+  display: block;
+  color: white;
+  font-size: 3rem;
+  transition: color 0.25s ease-in-out 0s;
+}
+
+.hero-unit .circle.scratch-bg, .flexible-columns .circle.scratch-bg, .staggered .circle.scratch-bg, .wysiwygs .circle.scratch-bg {
+  background-color: transparent;
+}
+
+/* Hero Unit */
+.hero-unit .scratch-bg {
+  height: auto;
+}
+
+.hero-unit .content {
+  margin: 10rem auto;
+  color: white;
+}
+
+@media (min-width: 40em) {
+  .hero-unit .content {
+    width: 65%;
+  }
+}
+
+.hero-unit .left .content {
+  float: left;
+}
+
+.hero-unit .right .content {
+  float: right;
+}
+
+/* Flexible Columns */
+.flexible-columns [class^="column-"], .flexible-columns [class*=" column-"] {
+  padding: 1rem;
+}
+
+.flexible-columns [class^="column-"] a:hover, .flexible-columns [class^="column-"] a:focus, .flexible-columns [class*=" column-"] a:hover, .flexible-columns [class*=" column-"] a:focus {
+  text-decoration: none;
+}
+
+.flexible-columns [class^="column-"] a:hover .circle, .flexible-columns [class^="column-"] a:focus .circle, .flexible-columns [class*=" column-"] a:hover .circle, .flexible-columns [class*=" column-"] a:focus .circle {
+  background-color: #49b685;
+}
+
+.flexible-columns [class^="column-"] a:hover .circle.scratch-bg, .flexible-columns [class^="column-"] a:focus .circle.scratch-bg, .flexible-columns [class*=" column-"] a:hover .circle.scratch-bg, .flexible-columns [class*=" column-"] a:focus .circle.scratch-bg {
+  background-color: transparent;
+  opacity: 0.8;
+}
+
+.flexible-columns [class^="column-"] a:hover i, .flexible-columns [class^="column-"] a:focus i, .flexible-columns [class*=" column-"] a:hover i, .flexible-columns [class*=" column-"] a:focus i {
+  color: #3d9970;
+}
+
+/* Staggered Images with Text */
+.staggered .row .circle {
+  width: 250px;
+  height: 250px;
+}
+
+@media (min-width: 40em) {
+  .staggered .row .circle {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.staggered .row .circle i {
+  font-size: 6rem;
+}
+
+.staggered .row:nth-child(odd) {
+  background-color: #eeeeee;
+}
+
+@media (min-width: 40em) {
+  .staggered .row {
+    height: 500px;
+  }
+  .staggered .row .first, .staggered .row .last, .staggered .row .wrap {
+    height: 100%;
+  }
+  .staggered .row .first h3, .staggered .row .last h3, .staggered .row .wrap h3 {
+    margin-top: 0;
+  }
+  .staggered .row:nth-child(even) .first {
+    float: right;
+    margin-left: 2.762430939%;
+  }
+  .staggered .row:nth-child(even) .last {
+    float: left;
+    margin-left: 0;
+  }
+}
+
+/* Slider */
+.slider-row .slide-text {
+  margin: 0 auto;
+  padding: 1rem;
+  color: white;
+}
+
+@media (min-width: 40em) {
+  .slider-row .slide-text {
+    padding: 1rem 6rem;
+  }
+}
+
+.glide {
+  /***** Customizations of glide-core *****/
+  height: 350px;
+  overflow: hidden;
+  /***** Customizations of glide-theme *****/
+}
+
+@media (min-width: 567px) {
+  .glide {
+    height: 500px;
+  }
+}
+
+.glide .glide__wrapper {
+  height: 100%;
+}
+
+.glide .glide__track {
+  padding: 0;
+  margin: 0;
+}
+
+.glide .glide__slide {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.glide .glide__bullets {
+  margin: 0;
+  padding: 0;
+}
+
+.glide .glide__arrow {
+  border: 0;
+  padding: 0;
+}
+
+.glide .glide__arrow i {
+  font-size: 1.5rem;
+}
+
+.glide .glide__arrow:hover, .glide .glide__arrow:focus {
+  background-color: transparent;
+}
+
+/* WYSIWYGs */
+/********************ARCHIVE********************/
+/*
+ * This file should house all of the styles for any
+ * archive template, i.e. archive.php, archive-{rename}.php,
+ * home.php, search.php, category.php, etc.
+ */
+/********************SINGLE********************/
+/*
+ * This file should house all of the styles for any
+ * single template, i.e. single.php or
+ * single-{rename}.php.
+ */
+/********************SIDEBAR********************/
+/*
+ * This file should house all of the styles for any
+ * sidebar template, i.e. sidebar.php or
+ * sidebar-{rename}.php.
+ */
+/********************HOME********************/
+/*
+ * This file should house all of the styles for whatever
+ * file you decide to use for your home page template.
+ * This could be front-page.php, home.php, or index.php.
+ */
+.home main {
+  padding-top: 1rem;
+}
+
+/********************FOOTER********************/
+/*
+ * This file should house all of the styles for
+ * footer.php.
+ */
+#footer {
+  padding: 1rem;
+}
+
+/*
+ * RESPONSIVE
+ * If you want a responsive stylesheet,
+ * it's best to import it last. This allows
+ * your @media queries to override other
+ * styles.
+ */
+/********************RESPONSIVE********************/
+/*
+ * Feel free to add some media queries here.
+ * They will be at the end of the stylesheet.
+ */
+@media print {
+  /********************PRINT********************/
+  .sidebar,
+  .page-navigation,
+  .wp-prev-next,
+  .respond-form,
+  nav {
+    display: none;
+  }
+}
+
+/* Obviously if you`re renaming/creating the files the imports must match. :) */
